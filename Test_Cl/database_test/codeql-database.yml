@@ -1,0 +1,21 @@
+---
+sourceLocationPrefix: "/home/zyc/桌面/codeql-linux64/codeql/Test_Cl"
+unicodeNewlines: false
+columnKind: "utf8"
+inProgress:
+  primaryLanguage: "cpp"
+  installedExtractors:
+    cpp:
+    - "file:///home/zyc/%E6%A1%8C%E9%9D%A2/codeql-linux64/codeql/cpp/"
+    csharp:
+    - "file:///home/zyc/%E6%A1%8C%E9%9D%A2/codeql-linux64/codeql/csharp/"
+    go:
+    - "file:///home/zyc/%E6%A1%8C%E9%9D%A2/codeql-linux64/codeql/go/"
+    java:
+    - "file:///home/zyc/%E6%A1%8C%E9%9D%A2/codeql-linux64/codeql/java/"
+    javascript:
+    - "file:///home/zyc/%E6%A1%8C%E9%9D%A2/codeql-linux64/codeql/javascript/"
+    python:
+    - "file:///home/zyc/%E6%A1%8C%E9%9D%A2/codeql-linux64/codeql/python/"
+    xml:
+    - "file:///home/zyc/%E6%A1%8C%E9%9D%A2/codeql-linux64/codeql/xml/"

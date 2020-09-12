@@ -1,0 +1,14 @@
+program type (Sep  8 2020 20:18:38)
+ubuntu
+mtime 1570214990
+/usr/lib/gcc/x86_64-linux-gnu/5/cc1
+-----
+not a compiler
+
+-
+--version stdout was:
+
+--version stderr was:
+
+process exited with code 0
+

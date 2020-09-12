@@ -1,0 +1,691 @@
+[T 23:51:55 7247] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/configure
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: <null>
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/do-prebuild
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: <null>
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/collect2
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: /home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor
+[T 23:51:55 7247] Prepend[0] "--linker"
+[T 23:51:55 7247] Prepend[1] "--semmle-linker-executable"
+[T 23:51:55 7247] Prepend[2] "${compiler}"
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/lld*
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: /home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor
+[T 23:51:55 7247] Prepend[0] "--linker"
+[T 23:51:55 7247] Prepend[1] "--semmle-linker-executable"
+[T 23:51:55 7247] Prepend[2] "${compiler}"
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/*-ld*
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: /home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor
+[T 23:51:55 7247] Prepend[0] "--linker"
+[T 23:51:55 7247] Prepend[1] "--semmle-linker-executable"
+[T 23:51:55 7247] Prepend[2] "${compiler}"
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/ld*
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: /home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor
+[T 23:51:55 7247] Prepend[0] "--linker"
+[T 23:51:55 7247] Prepend[1] "--semmle-linker-executable"
+[T 23:51:55 7247] Prepend[2] "${compiler}"
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/armlink
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: /home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor
+[T 23:51:55 7247] Prepend[0] "--arm-linker"
+[T 23:51:55 7247] Prepend[1] "--semmle-linker-executable"
+[T 23:51:55 7247] Prepend[2] "${compiler}"
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/icpc
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: /home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor
+[T 23:51:55 7247] Prepend[0] "--mimic"
+[T 23:51:55 7247] Prepend[1] "${compiler}"
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/*++*
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: /home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor
+[T 23:51:55 7247] Prepend[0] "--mimic"
+[T 23:51:55 7247] Prepend[1] "${compiler}"
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/*cc*
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: /home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor
+[T 23:51:55 7247] Prepend[0] "--mimic"
+[T 23:51:55 7247] Prepend[1] "${compiler}"
+[T 23:51:55 7247] Compilers file as of 2020-09-12 23:51:55
+[T 23:51:55 7247] Compiler pattern: **/*clang*
+[T 23:51:55 7247] Replace intercepted call: 0
+[T 23:51:55 7247] Extractor: /home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor
+[T 23:51:55 7247] Prepend[0] "--mimic"
+[T 23:51:55 7247] Prepend[1] "${compiler}"
+[T 23:51:55 7247] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7247]   ELF 64-bit x86-64.
+[T 23:51:55 7247]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7247] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7247] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 23:51:55 7247] ==== Candidate to intercept: /home/zyc/桌面/codeql-linux64/codeql/tools/linux64/runner-linux (canonical: /home/zyc/桌面/codeql-linux64/codeql/tools/linux64/runner-linux) ====
+[T 23:51:55 7247] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7247]   ELF 64-bit x86-64.
+[T 23:51:55 7247]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7247] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7247] ==== Candidate to intercept: make (canonical: make) ====
+[T 23:51:55 7247] Will try to resolve make in path /home/zyc/bin:/home/zyc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 23:51:55 7247]  -> path lookup for make as /home/zyc/bin/make...
+[T 23:51:55 7247]  -> path lookup for make as /home/zyc/.local/bin/make...
+[T 23:51:55 7247]  -> path lookup for make as /usr/local/sbin/make...
+[T 23:51:55 7247]  -> path lookup for make as /usr/local/bin/make...
+[T 23:51:55 7247]  -> path lookup for make as /usr/sbin/make...
+[T 23:51:55 7247]  -> path lookup for make as /usr/bin/make...
+[T 23:51:55 7247] ==== Candidate to intercept: /usr/bin/make (canonical: /usr/bin/make) ====
+[T 23:51:55 7247] Pathname resolved to /usr/bin/make, which does not match a compiler.
+[T 23:51:55 7248] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7248]   ELF 64-bit x86-64.
+[T 23:51:55 7248]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7248] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7248] ==== Candidate to intercept: gcc (canonical: gcc) ====
+[T 23:51:55 7248] Will try to resolve gcc in path /home/zyc/bin:/home/zyc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 23:51:55 7248]  -> path lookup for gcc as /home/zyc/bin/gcc...
+[T 23:51:55 7248]  -> path lookup for gcc as /home/zyc/.local/bin/gcc...
+[T 23:51:55 7248]  -> path lookup for gcc as /usr/local/sbin/gcc...
+[T 23:51:55 7248]  -> path lookup for gcc as /usr/local/bin/gcc...
+[T 23:51:55 7248]  -> path lookup for gcc as /usr/sbin/gcc...
+[T 23:51:55 7248]  -> path lookup for gcc as /usr/bin/gcc...
+[T 23:51:55 7248] ==== Candidate to intercept: /usr/bin/gcc (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7248] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7248] Resolved barename gcc to /usr/bin/gcc, which matched **/*cc*...
+[T 23:51:55 7250] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7250]   ELF 64-bit x86-64.
+[T 23:51:55 7250]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7250] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7250] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7250] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7255] Attempting to switch stdout/stderr to 4...
+Testing stderr (2/4).
+[T 23:51:55 7255] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7255]   ELF 64-bit x86-64.
+[T 23:51:55 7255]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7255] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7255] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7255] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7255] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -imultiarch x86_64-linux-gnu main.c -quiet -dumpbase main.c -mtune=generic -march=x86-64 -auxbase-strip main.o -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc8Txw5o.s
+[T 23:51:55 7256] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7256]   ELF 64-bit x86-64.
+[T 23:51:55 7256]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7256] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7256] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7256] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7258] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7258] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7258]   ELF 64-bit x86-64.
+[T 23:51:55 7258]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7258] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7258] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7258] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7258] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 --version
+[E 23:51:55 7258] Within classification loop; exiting.
+[T 23:51:55 7256] Extractor terminated with exit code 0.
+[T 23:51:55 7259] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7259]   ELF 64-bit x86-64.
+[T 23:51:55 7259]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7259] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7259] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7259] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7261] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7261] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7261]   ELF 64-bit x86-64.
+[T 23:51:55 7261]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7261] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7261] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7261] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7261] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 --help
+[E 23:51:55 7261] Within classification loop; exiting.
+[T 23:51:55 7259] Extractor terminated with exit code 0.
+[E 23:51:55 7255] Not a compiler; exiting. Reason: --version stdout was:
+
+--version stderr was:
+
+process exited with code 0
+
+[T 23:51:55 7250] Extractor terminated with exit code 0.
+[T 23:51:55 7262] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7262]   ELF 64-bit x86-64.
+[T 23:51:55 7262]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7262] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7262] ==== Candidate to intercept: as (canonical: as) ====
+[T 23:51:55 7262] Will try to resolve as in path /home/zyc/bin:/home/zyc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 23:51:55 7262]  -> path lookup for as as /home/zyc/bin/as...
+[T 23:51:55 7262]  -> path lookup for as as /home/zyc/.local/bin/as...
+[T 23:51:55 7262]  -> path lookup for as as /usr/local/sbin/as...
+[T 23:51:55 7262]  -> path lookup for as as /usr/local/bin/as...
+[T 23:51:55 7262]  -> path lookup for as as /usr/sbin/as...
+[T 23:51:55 7262]  -> path lookup for as as /usr/bin/as...
+[T 23:51:55 7262] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 23:51:55 7262] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 23:51:55 7264] Attempting to switch stdout/stderr to 4...
+Testing stderr (2/4).
+[T 23:51:55 7264] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7264]   ELF 64-bit x86-64.
+[T 23:51:55 7264]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7264] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7264] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7264] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7264] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -c main.c -o main.o
+[T 23:51:55 7265] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7265]   ELF 64-bit x86-64.
+[T 23:51:55 7265]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7265] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7265] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7265] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7267] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7267] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7267]   ELF 64-bit x86-64.
+[T 23:51:55 7267]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7267] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7267] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7267] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7267] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 --version
+[E 23:51:55 7267] Within classification loop; exiting.
+[T 23:51:55 7265] Extractor terminated with exit code 0.
+[T 23:51:55 7268] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7268]   ELF 64-bit x86-64.
+[T 23:51:55 7268]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7268] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7268] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7268] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7270] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7270] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7270]   ELF 64-bit x86-64.
+[T 23:51:55 7270]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7270] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7270] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7270] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7270] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 --help
+[E 23:51:55 7270] Within classification loop; exiting.
+[T 23:51:55 7268] Extractor terminated with exit code 0.
+[T 23:51:55 7271] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7271]   ELF 64-bit x86-64.
+[T 23:51:55 7271]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7271] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7271] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7271] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7273] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7273]   ELF 64-bit x86-64.
+[T 23:51:55 7273]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7273] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7273] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7273] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7275] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7275] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7275]   ELF 64-bit x86-64.
+[T 23:51:55 7275]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7275] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7275] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7275] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7275] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -nostdinc -imultiarch x86_64-linux-gnu '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_1_7264_536172semmle-0D54A72C891C4B89888FCE7759D3B8A5.c' -quiet -dumpbase semmle_1_7264_536172semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -mtune=generic -march=x86-64 -auxbase-strip '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_2_7264_536182.o' -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccZP1qNy.s
+[E 23:51:55 7275] Not a compiler; exiting. Reason: --version stdout was:
+[T 23:51:55 7273] Extractor terminated with exit code 0.
+[T 23:51:55 7276] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7276]   ELF 64-bit x86-64.
+[T 23:51:55 7276]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7276] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7276] ==== Candidate to intercept: as (canonical: as) ====
+[T 23:51:55 7276] Will try to resolve as in path /home/zyc/bin:/home/zyc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 23:51:55 7276]  -> path lookup for as as /home/zyc/bin/as...
+[T 23:51:55 7276]  -> path lookup for as as /home/zyc/.local/bin/as...
+[T 23:51:55 7276]  -> path lookup for as as /usr/local/sbin/as...
+[T 23:51:55 7276]  -> path lookup for as as /usr/local/bin/as...
+[T 23:51:55 7276]  -> path lookup for as as /usr/sbin/as...
+[T 23:51:55 7276]  -> path lookup for as as /usr/bin/as...
+[T 23:51:55 7276] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 23:51:55 7276] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 23:51:55 7277] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7277] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7277]   ELF 64-bit x86-64.
+[T 23:51:55 7277]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7277] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7277] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7277] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7277] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -nostdinc -o '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_2_7264_536182.o' -c '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_1_7264_536172semmle-0D54A72C891C4B89888FCE7759D3B8A5.c'
+[E 23:51:55 7277] Within classification loop; exiting.
+[T 23:51:55 7271] Extractor terminated with exit code 0.
+[T 23:51:55 7278] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7278]   ELF 64-bit x86-64.
+[T 23:51:55 7278]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7278] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7278] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7278] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7280] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7280]   ELF 64-bit x86-64.
+[T 23:51:55 7280]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7280] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7280] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7280] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7282] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7282] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7282]   ELF 64-bit x86-64.
+[T 23:51:55 7282]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7282] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7282] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7282] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7282] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -nostdinc -v -imultiarch x86_64-linux-gnu -iwithprefix 80AD44EC-F542-4CCF-8C9F-328EB87D7D35 '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_1_7264_536172semmle-0D54A72C891C4B89888FCE7759D3B8A5.c' -quiet -dumpbase semmle_1_7264_536172semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -mtune=generic -march=x86-64 -auxbase-strip '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_2_7264_536182.o' -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc8wxQGx.s
+[E 23:51:55 7282] Not a compiler; exiting. Reason: --version stdout was:
+[T 23:51:55 7280] Extractor terminated with exit code 0.
+[T 23:51:55 7283] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7283]   ELF 64-bit x86-64.
+[T 23:51:55 7283]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7283] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7283] ==== Candidate to intercept: as (canonical: as) ====
+[T 23:51:55 7283] Will try to resolve as in path /home/zyc/bin:/home/zyc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 23:51:55 7283]  -> path lookup for as as /home/zyc/bin/as...
+[T 23:51:55 7283]  -> path lookup for as as /home/zyc/.local/bin/as...
+[T 23:51:55 7283]  -> path lookup for as as /usr/local/sbin/as...
+[T 23:51:55 7283]  -> path lookup for as as /usr/local/bin/as...
+[T 23:51:55 7283]  -> path lookup for as as /usr/sbin/as...
+[T 23:51:55 7283]  -> path lookup for as as /usr/bin/as...
+[T 23:51:55 7283] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 23:51:55 7283] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 23:51:55 7284] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7284] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7284]   ELF 64-bit x86-64.
+[T 23:51:55 7284]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7284] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7284] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7284] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7284] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -nostdinc -o '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_2_7264_536182.o' -c '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_1_7264_536172semmle-0D54A72C891C4B89888FCE7759D3B8A5.c' -v -iwithprefix 80AD44EC-F542-4CCF-8C9F-328EB87D7D35
+[E 23:51:55 7284] Within classification loop; exiting.
+[T 23:51:55 7278] Extractor terminated with exit code 0.
+[T 23:51:55 7285] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7285]   ELF 64-bit x86-64.
+[T 23:51:55 7285]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7285] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7285] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7285] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7287] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7287]   ELF 64-bit x86-64.
+[T 23:51:55 7287]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7287] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7287] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7287] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7289] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7289] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7289]   ELF 64-bit x86-64.
+[T 23:51:55 7289]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7289] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7289] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7289] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7289] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -nostdinc -imultiarch x86_64-linux-gnu '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_4_7264_568632.c' -quiet -dumpbase semmle_4_7264_568632.c -mtune=generic -march=x86-64 -auxbase-strip '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_5_7264_568648.o' -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccSmehjB.s
+[E 23:51:55 7289] Not a compiler; exiting. Reason: --version stdout was:
+[T 23:51:55 7287] Extractor terminated with exit code 0.
+[T 23:51:55 7290] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7290] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7290]   ELF 64-bit x86-64.
+[T 23:51:55 7290]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7290] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7290] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7290] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7290] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -nostdinc -o '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_5_7264_568648.o' -c '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_4_7264_568632.c'
+[E 23:51:55 7290] Within classification loop; exiting.
+[T 23:51:55 7285] Extractor terminated with exit code 0.
+[T 23:51:55 7291] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7291]   ELF 64-bit x86-64.
+[T 23:51:55 7291]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7291] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7291] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7291] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7293] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7293]   ELF 64-bit x86-64.
+[T 23:51:55 7293]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7293] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7293] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7293] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7295] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7295] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7295]   ELF 64-bit x86-64.
+[T 23:51:55 7295]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7295] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7295] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7295] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7295] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -v -imultiarch x86_64-linux-gnu '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_7_7264_579023' -quiet -dumpbase semmle_7_7264_579023 -mtune=generic -march=x86-64 -auxbase semmle_7_7264_579023 -version -fsyntax-only -o /dev/null -fstack-protector-strong -Wformat -Wformat-security
+[E 23:51:55 7295] Not a compiler; exiting. Reason: --version stdout was:
+[T 23:51:55 7293] Extractor terminated with exit code 0.
+[T 23:51:55 7296] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7296] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7296]   ELF 64-bit x86-64.
+[T 23:51:55 7296]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7296] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7296] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7296] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7296] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -x c -v -fsyntax-only '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_7_7264_579023'
+[E 23:51:55 7296] Within classification loop; exiting.
+[T 23:51:55 7291] Extractor terminated with exit code 0.
+[T 23:51:55 7297] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7297]   ELF 64-bit x86-64.
+[T 23:51:55 7297]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7297] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7297] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7297] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7299] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7299]   ELF 64-bit x86-64.
+[T 23:51:55 7299]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7299] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7299] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7299] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7301] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7301] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7301]   ELF 64-bit x86-64.
+[T 23:51:55 7301]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7301] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7301] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7301] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7301] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -E -quiet -imultiarch x86_64-linux-gnu '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_8_7264_588317' -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security -dM
+[E 23:51:55 7301] Not a compiler; exiting. Reason: --version stdout was:
+[T 23:51:55 7299] Extractor terminated with exit code 0.
+[T 23:51:55 7302] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7302] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7302]   ELF 64-bit x86-64.
+[T 23:51:55 7302]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7302] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7302] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7302] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7302] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -x c -E -dM '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_8_7264_588317'
+[E 23:51:55 7302] Within classification loop; exiting.
+[T 23:51:55 7297] Extractor terminated with exit code 0.
+[T 23:51:55 7303] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7303]   ELF 64-bit x86-64.
+[T 23:51:55 7303]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7303] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7303] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7303] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7305] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7305]   ELF 64-bit x86-64.
+[T 23:51:55 7305]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7305] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7305] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7305] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7307] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7307] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7307]   ELF 64-bit x86-64.
+[T 23:51:55 7307]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7307] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7307] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7307] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7307] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -imultiarch x86_64-linux-gnu '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_9_7264_596602.h' -quiet -dumpbase semmle_9_7264_596602.h -mtune=generic -march=x86-64 -auxbase semmle_9_7264_596602 -Wreturn-type -fmax-errors=0 -o /tmp/cceWQSTC.s --output-pch= '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_9_7264_596602.h.gch'
+[E 23:51:55 7307] Not a compiler; exiting. Reason: --version stdout was:
+[T 23:51:55 7305] Extractor terminated with exit code 0.
+[T 23:51:55 7308] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7308] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7308]   ELF 64-bit x86-64.
+[T 23:51:55 7308]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7308] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7308] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7308] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7308] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -x c-header -fmax-errors=0 -Wreturn-type -o '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_9_7264_596602.h.gch' '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_9_7264_596602.h'
+[E 23:51:55 7308] Within classification loop; exiting.
+[T 23:51:55 7303] Extractor terminated with exit code 0.
+[T 23:51:55 7309] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7309]   ELF 64-bit x86-64.
+[T 23:51:55 7309]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7309] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7309] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7309] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7311] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7311]   ELF 64-bit x86-64.
+[T 23:51:55 7311]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7311] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7311] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7311] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7313] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7313] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7313]   ELF 64-bit x86-64.
+[T 23:51:55 7313]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7313] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7313] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7313] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7313] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -imultiarch x86_64-linux-gnu - -quiet -dumpbase - -mtune=generic -march=x86-64 -auxbase - -Wreturn-type -fmax-errors=0 -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccTTR1KC.s
+[E 23:51:55 7313] Not a compiler; exiting. Reason: --version stdout was:
+[T 23:51:55 7311] Extractor terminated with exit code 0.
+[T 23:51:55 7314] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7314] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7314]   ELF 64-bit x86-64.
+[T 23:51:55 7314]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7314] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7314] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7314] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7314] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -x c -fmax-errors=0 -Wreturn-type -o '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_9_7264_596602.h.gch' -
+[E 23:51:55 7314] Within classification loop; exiting.
+[T 23:51:55 7309] Extractor terminated with exit code 0.
+Warning: Could not parse function type 'void (__attribute__((sysv_abi)) *)(__va_list_tag *, __va_list_tag *) {aka void (*)(__va_list_tag *, __va_list_tag *)}'
+Warning: Could not parse function type 'void (__attribute__((sysv_abi)) *)(__va_list_tag *) {aka void (*)(__va_list_tag *)}'
+Warning: Could not parse function type 'void (__attribute__((sysv_abi)) *)(__va_list_tag *) {aka void (*)(__va_list_tag *)}'
+Warning: Failed to find information about possible built-in _Alignas
+Warning: Failed to find information about possible built-in _Alignof
+Warning: Failed to find information about possible built-in _Cilk_for
+Warning: Failed to find information about possible built-in _Cilk_spawn
+Warning: Failed to find information about possible built-in _Cilk_sync
+Warning: Failed to find information about possible built-in _Pragma
+Warning: Failed to find information about possible built-in _Static_assert
+Warning: Failed to find information about possible built-in _Unwind_Resume
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Register
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Unregister
+Warning: Failed to find information about possible built-in __bounds_type
+Warning: Failed to find information about possible built-in __builtin_call_with_static_chain
+Warning: Failed to find information about possible built-in __has_attribute
+Warning: Failed to find information about possible built-in __has_cpp_attribute
+Warning: Failed to find information about possible built-in __setbits
+Warning: Failed to find information about possible built-in _chkp_bndcl
+Warning: Failed to find information about possible built-in _chkp_bndcu
+Warning: Failed to find information about possible built-in _chkp_bndldx
+Warning: Failed to find information about possible built-in _chkp_bndmk
+Warning: Failed to find information about possible built-in _chkp_bndret
+Warning: Failed to find information about possible built-in _chkp_bndstx
+Warning: Failed to find information about possible built-in _chkp_extract_lower
+Warning: Failed to find information about possible built-in _chkp_extract_upper
+Warning: Failed to find information about possible built-in _exit
+Warning: Ignored 24 possible built-ins
+[T 23:51:55 7315] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7315]   ELF 64-bit x86-64.
+[T 23:51:55 7315]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7315] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7315] ==== Candidate to intercept: /usr/bin/gcc-5 (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7315] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7317] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7317]   ELF 64-bit x86-64.
+[T 23:51:55 7317]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7317] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7317] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7317] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7319] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7319] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7319]   ELF 64-bit x86-64.
+[T 23:51:55 7319]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7319] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7319] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7319] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7319] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -imultiarch x86_64-linux-gnu '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_11_7264_731029.c' -quiet -dumpbase semmle_11_7264_731029.c -mtune=generic -march=x86-64 -auxbase-strip '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_12_7264_731036.o' -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc8pTXGN.s
+[E 23:51:55 7319] Not a compiler; exiting. Reason: --version stdout was:
+[T 23:51:55 7317] Extractor terminated with exit code 0.
+[T 23:51:55 7320] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7320]   ELF 64-bit x86-64.
+[T 23:51:55 7320]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7320] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7320] ==== Candidate to intercept: as (canonical: as) ====
+[T 23:51:55 7320] Will try to resolve as in path /home/zyc/bin:/home/zyc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 23:51:55 7320]  -> path lookup for as as /home/zyc/bin/as...
+[T 23:51:55 7320]  -> path lookup for as as /home/zyc/.local/bin/as...
+[T 23:51:55 7320]  -> path lookup for as as /usr/local/sbin/as...
+[T 23:51:55 7320]  -> path lookup for as as /usr/local/bin/as...
+[T 23:51:55 7320]  -> path lookup for as as /usr/sbin/as...
+[T 23:51:55 7320]  -> path lookup for as as /usr/bin/as...
+[T 23:51:55 7320] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 23:51:55 7320] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 23:51:55 7321] Attempting to switch stdout/stderr to 6...
+Testing stderr (2/6).
+[T 23:51:55 7321] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7321]   ELF 64-bit x86-64.
+[T 23:51:55 7321]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7321] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7321] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7321] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7321] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -x c -o '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_12_7264_731036.o' -c '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tmp//semmle_11_7264_731029.c'
+[E 23:51:55 7321] Within classification loop; exiting.
+[T 23:51:55 7315] Extractor terminated with exit code 0.
+[E 23:51:55 7264] Processed command line: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --trapfolder '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp' --src_archive '/home/zyc/桌面/codeql-linux64/codeql/database_test/src' --mimic_config '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compiler_mimic_cache/d640b503aa69' --object_filename main.o -w --error_limit 1000 --disable_system_macros --variadic_macros --gcc --gnu_version 50400 --builtin_functions_file '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compiler_mimic_cache/builtins_73c6cb557376' --target linux_x86_64 -D__SSP_STRONG__=3 '-D__DBL_MIN_EXP__=(-1021)' -D__UINT_LEAST16_MAX__=0xffff -D__ATOMIC_ACQUIRE=2 -D__FLT_MIN__=1.17549435082228750797e-38F -D__GCC_IEC_559_COMPLEX=2 '-D__UINT_LEAST8_TYPE__=unsigned char' -D__SIZEOF_FLOAT80__=16 '-D__INTMAX_C(c)=c ## L' -D__CHAR_BIT__=8 -D__UINT8_MAX__=0xff -D__WINT_MAX__=0xffffffffU -D__ORDER_LITTLE_ENDIAN__=1234 -D__SIZE_MAX__=0xffffffffffffffffUL -D__WCHAR_MAX__=0x7fffffff -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1 '-D__DBL_DENORM_MIN__=((double)4.94065645841246544177e-324L)' -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8=1 -D__GCC_ATOMIC_CHAR_LOCK_FREE=2 -D__GCC_IEC_559=2 -D__FLT_EVAL_METHOD__=0 -D__unix__=1 -D__GCC_ATOMIC_CHAR32_T_LOCK_FREE=2 -D__x86_64=1 -D__UINT_FAST64_MAX__=0xffffffffffffffffUL -D__SIG_ATOMIC_TYPE__=int '-D__DBL_MIN_10_EXP__=(-307)' -D__FINITE_MATH_ONLY__=0 -D__UINT_FAST8_MAX__=0xff '-D__has_include(STR)=__has_include__(STR)' -D__DEC64_MAX_EXP__=385 '-D__INT8_C(c)=c' -D__UINT_LEAST64_MAX__=0xffffffffffffffffUL -D__SHRT_MAX__=0x7fff '-D__LDBL_MAX__=1.18973149535723176502e+4932L' -D__UINT_LEAST8_MAX__=0xff -D__GCC_ATOMIC_BOOL_LOCK_FREE=2 '-D__UINTMAX_TYPE__=long unsigned int' -D__linux=1 -D__DEC32_EPSILON__=1E-6DF -D__unix=1 -D__UINT32_MAX__=0xffffffffU -D__LDBL_MAX_EXP__=16384 -D__WINT_MIN__=0U -D__linux__=1 -D__SCHAR_MAX__=0x7f '-D__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)' '-D__INT64_C(c)=c ## L' -D__DBL_DIG__=15 -D__GCC_ATOMIC_POINTER_LOCK_FREE=2 -D__SIZEOF_INT__=4 -D__SIZEOF_POINTER__=8 -D__USER_LABEL_PREFIX__= -D__LDBL_HAS_INFINITY__=1 -D__FLT_EPSILON__=1.19209289550781250000e-7F -D__LDBL_MIN__=3.36210314311209350626e-4932L -D__STDC_UTF_16__=1 -D__DEC32_MAX__=9.999999E96DF -D__INT32_MAX__=0x7fffffff -D__SIZEOF_LONG__=8 -D__STDC_IEC_559__=1 -D__STDC_ISO_10646__=201505L '-D__UINT16_C(c)=c' -D__DECIMAL_DIG__=21 -D__gnu_linux__=1 '-D__has_include_next(STR)=__has_include_next__(STR)' -D__LDBL_HAS_QUIET_NAN__=1 -D__MMX__=1 -D__FLT_HAS_DENORM__=1 -D__SIZEOF_LONG_DOUBLE__=16 -D__BIGGEST_ALIGNMENT__=16 '-D__DBL_MAX__=((double)1.79769313486231570815e+308L)' -D__INT_FAST32_MAX__=0x7fffffffffffffffL -D__DBL_HAS_INFINITY__=1 '-D__DEC32_MIN_EXP__=(-94)' '-D__INT_FAST16_TYPE__=long int' -D__LDBL_HAS_DENORM__=1 -D__DEC128_MAX__=9.999999999999999999999999999999999E6144DL -D__INT_LEAST32_MAX__=0x7fffffff -D__DEC32_MIN__=1E-95DF -D__DBL_MAX_EXP__=1024 -D__DEC128_EPSILON__=1E-33DL -D__SSE2_MATH__=1 -D__ATOMIC_HLE_RELEASE=131072 -D__PTRDIFF_MAX__=0x7fffffffffffffffL -D__amd64=1 -D__STDC_NO_THREADS__=1 -D__ATOMIC_HLE_ACQUIRE=65536 -D__LONG_LONG_MAX__=0x7fffffffffffffffLL -D__SIZEOF_SIZE_T__=8 -D__SIZEOF_WINT_T__=4 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -D__GXX_ABI_VERSION=1009 '-D__FLT_MIN_EXP__=(-125)' '-D__INT_FAST64_TYPE__=long int' '-D__DBL_MIN__=((double)2.22507385850720138309e-308L)' -D__LP64__=1 -D__DECIMAL_BID_FORMAT__=1 -D__DEC128_MIN__=1E-6143DL -D__REGISTER_PREFIX__= -D__UINT16_MAX__=0xffff -D__DBL_HAS_DENORM__=1 '-D__UINT8_TYPE__=unsigned char' -D__NO_INLINE__=1 -D__FLT_MANT_DIG__=24 '-D__UINT64_C(c)=c ## UL' -D_STDC_PREDEF_H=1 -D__GCC_ATOMIC_INT_LOCK_FREE=2 -D__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__STDC_IEC_559_COMPLEX__=1 '-D__INT32_C(c)=c' -D__DEC64_EPSILON__=1E-15DD -D__ORDER_PDP_ENDIAN__=3412 '-D__DEC128_MIN_EXP__=(-6142)' '-D__INT_FAST32_TYPE__=long int' '-D__UINT_LEAST16_TYPE__=short unsigned int' -Dunix=1 -D__INT16_MAX__=0x7fff '-D__SIZE_TYPE__=long unsigned int' -D__UINT64_MAX__=0xffffffffffffffffUL '-D__INT8_TYPE__=signed char' -D__ELF__=1 -D__FLT_RADIX__=2 '-D__INT_LEAST16_TYPE__=short int' -D__LDBL_EPSILON__=1.08420217248550443401e-19L '-D__UINTMAX_C(c)=c ## UL' -D__SSE_MATH__=1 -D__k8=1 -D__SIG_ATOMIC_MAX__=0x7fffffff -D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2 -D__SIZEOF_PTRDIFF_T__=8 -D__x86_64__=1 -D__DEC32_SUBNORMAL_MIN__=0.000001E-95DF -D__INT_FAST16_MAX__=0x7fffffffffffffffL -D__UINT_FAST32_MAX__=0xffffffffffffffffUL '-D__UINT_LEAST64_TYPE__=long unsigned int' -D__FLT_HAS_QUIET_NAN__=1 -D__FLT_MAX_10_EXP__=38 -D__LONG_MAX__=0x7fffffffffffffffL -D__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL -D__FLT_HAS_INFINITY__=1 '-D__UINT_FAST16_TYPE__=long unsigned int' -D__DEC64_MAX__=9.999999999999999E384DD -D__PRAGMA_REDEFINE_EXTNAME=1 -D__INT_LEAST16_MAX__=0x7fff -D__DEC64_MANT_DIG__=16 -D__INT64_MAX__=0x7fffffffffffffffL -D__UINT_LEAST32_MAX__=0xffffffffU -D__GCC_ATOMIC_LONG_LOCK_FREE=2 '-D__INT_LEAST64_TYPE__=long int' '-D__INT16_TYPE__=short int' '-D__INT_LEAST8_TYPE__=signed char' -D__DEC32_MAX_EXP__=97 -D__INT_FAST8_MAX__=0x7f -D__INTPTR_MAX__=0x7fffffffffffffffL -Dlinux=1 -D__SSE2__=1 -D__LDBL_MANT_DIG__=64 -D__DBL_HAS_QUIET_NAN__=1 '-D__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)' -D__code_model_small__=1 -D__k8__=1 '-D__INTPTR_TYPE__=long int' '-D__UINT16_TYPE__=short unsigned int' -D__WCHAR_TYPE__=int -D__SIZEOF_FLOAT__=4 -D__UINTPTR_MAX__=0xffffffffffffffffUL '-D__DEC64_MIN_EXP__=(-382)' -D__INT_FAST64_MAX__=0x7fffffffffffffffL -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -D__FLT_DIG__=6 '-D__UINT_FAST64_TYPE__=long unsigned int' -D__INT_MAX__=0x7fffffff -D__amd64__=1 '-D__INT64_TYPE__=long int' -D__FLT_MAX_EXP__=128 -D__ORDER_BIG_ENDIAN__=4321 -D__DBL_MANT_DIG__=53 -D__SIZEOF_FLOAT128__=16 -D__INT_LEAST64_MAX__=0x7fffffffffffffffL -D__GCC_ATOMIC_CHAR16_T_LOCK_FREE=2 -D__DEC64_MIN__=1E-383DD '-D__WINT_TYPE__=unsigned int' '-D__UINT_LEAST32_TYPE__=unsigned int' -D__SIZEOF_SHORT__=2 -D__SSE__=1 '-D__LDBL_MIN_EXP__=(-16381)' -D__INT_LEAST8_MAX__=0x7f -D__SIZEOF_INT128__=16 -D__LDBL_MAX_10_EXP__=4932 -D__ATOMIC_RELAXED=0 '-D__DBL_EPSILON__=((double)2.22044604925031308085e-16L)' -D_LP64=1 '-D__UINT8_C(c)=c' -D__INT_LEAST32_TYPE__=int -D__SIZEOF_WCHAR_T__=4 '-D__UINT64_TYPE__=long unsigned int' '-D__INT_FAST8_TYPE__=signed char' -D__DBL_DECIMAL_DIG__=17 -D__STDC_UTF_32__=1 -D__FXSR__=1 -D__DEC_EVAL_METHOD__=2 '-D__UINT32_C(c)=c ## U' -D__INTMAX_MAX__=0x7fffffffffffffffL -D__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__FLT_DENORM_MIN__=1.40129846432481707092e-45F -D__INT8_MAX__=0x7f '-D__UINT_FAST32_TYPE__=long unsigned int' '-D__FLT_MAX__=3.40282346638528859812e+38F' -D__INT32_TYPE__=int -D__SIZEOF_DOUBLE__=8 '-D__FLT_MIN_10_EXP__=(-37)' '-D__INTMAX_TYPE__=long int' -D__DEC128_MAX_EXP__=6145 -D__ATOMIC_CONSUME=1 -D__UINTMAX_MAX__=0xffffffffffffffffUL -D__DEC32_MANT_DIG__=7 -D__DBL_MAX_10_EXP__=308 -D__LDBL_DENORM_MIN__=3.64519953188247460253e-4951L '-D__INT16_C(c)=c' '-D__PTRDIFF_TYPE__=long int' -D__ATOMIC_SEQ_CST=5 '-D__UINT32_TYPE__=unsigned int' '-D__UINTPTR_TYPE__=long unsigned int' -D__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD -D__DEC128_MANT_DIG__=34 '-D__LDBL_MIN_10_EXP__=(-4931)' -D__SIZEOF_LONG_LONG__=8 -D__GCC_ATOMIC_LLONG_LOCK_FREE=2 -D__LDBL_DIG__=18 -D__FLT_DECIMAL_DIG__=9 -D__UINT_FAST16_MAX__=0xffffffffffffffffUL -D__GCC_ATOMIC_SHORT_LOCK_FREE=2 '-D__UINT_FAST8_TYPE__=unsigned char' -D__ATOMIC_ACQ_REL=4 -D__ATOMIC_RELEASE=3 -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -- main.c
+[E 23:51:55 7264] Reading all manifests in /home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tarballs
+[E 23:51:55 7264] Starting compilation TRAP /home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compilations/60/28718938_0.trap.br
+Catastrophic error: cannot open builtin functions file "/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compiler_mimic_cache/builtins_73c6cb557376"
+
+1 catastrophic error detected in the compilation of "main.c".
+Compilation terminated.
+Current directory: '/home/zyc/桌面/codeql-linux64/codeql/Test_Cl'
+Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -c main.c -o main.o
+[E 23:51:55 7264] Finished compilation TRAP /home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compilations/60/28718938_0.trap.br
+[T 23:51:55 7248] Extractor terminated with exit code 1.
+[T 23:51:55 7322] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7322]   ELF 64-bit x86-64.
+[T 23:51:55 7322]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7322] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7322] ==== Candidate to intercept: gcc (canonical: gcc) ====
+[T 23:51:55 7322] Will try to resolve gcc in path /home/zyc/bin:/home/zyc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 23:51:55 7322]  -> path lookup for gcc as /home/zyc/bin/gcc...
+[T 23:51:55 7322]  -> path lookup for gcc as /home/zyc/.local/bin/gcc...
+[T 23:51:55 7322]  -> path lookup for gcc as /usr/local/sbin/gcc...
+[T 23:51:55 7322]  -> path lookup for gcc as /usr/local/bin/gcc...
+[T 23:51:55 7322]  -> path lookup for gcc as /usr/sbin/gcc...
+[T 23:51:55 7322]  -> path lookup for gcc as /usr/bin/gcc...
+[T 23:51:55 7322] ==== Candidate to intercept: /usr/bin/gcc (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7322] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7322] Resolved barename gcc to /usr/bin/gcc, which matched **/*cc*...
+[T 23:51:55 7324] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7324]   ELF 64-bit x86-64.
+[T 23:51:55 7324]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7324] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7324] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/cc1) ====
+[T 23:51:55 7324] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/cc1 === 
+[T 23:51:55 7326] Attempting to switch stdout/stderr to 4...
+Testing stderr (2/4).
+[T 23:51:55 7326] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7326]   ELF 64-bit x86-64.
+[T 23:51:55 7326]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7326] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7326] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7326] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7326] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -imultiarch x86_64-linux-gnu sort.c -quiet -dumpbase sort.c -mtune=generic -march=x86-64 -auxbase-strip sort.o -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccc0mDwM.s
+[E 23:51:55 7326] Not a compiler; exiting. Reason: --version stdout was:
+[T 23:51:55 7324] Extractor terminated with exit code 0.
+[T 23:51:55 7327] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7327]   ELF 64-bit x86-64.
+[T 23:51:55 7327]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7327] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7327] ==== Candidate to intercept: as (canonical: as) ====
+[T 23:51:55 7327] Will try to resolve as in path /home/zyc/bin:/home/zyc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 23:51:55 7327]  -> path lookup for as as /home/zyc/bin/as...
+[T 23:51:55 7327]  -> path lookup for as as /home/zyc/.local/bin/as...
+[T 23:51:55 7327]  -> path lookup for as as /usr/local/sbin/as...
+[T 23:51:55 7327]  -> path lookup for as as /usr/local/bin/as...
+[T 23:51:55 7327]  -> path lookup for as as /usr/sbin/as...
+[T 23:51:55 7327]  -> path lookup for as as /usr/bin/as...
+[T 23:51:55 7327] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 23:51:55 7327] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 23:51:55 7328] Attempting to switch stdout/stderr to 4...
+Testing stderr (2/4).
+[T 23:51:55 7328] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7328]   ELF 64-bit x86-64.
+[T 23:51:55 7328]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7328] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7328] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7328] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7328] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -c sort.c -o sort.o
+[E 23:51:55 7328] Processed command line: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --trapfolder '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp' --src_archive '/home/zyc/桌面/codeql-linux64/codeql/database_test/src' --mimic_config '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compiler_mimic_cache/d640b503aa69' --object_filename sort.o -w --error_limit 1000 --disable_system_macros --variadic_macros --gcc --gnu_version 50400 --builtin_functions_file '/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compiler_mimic_cache/builtins_73c6cb557376' --target linux_x86_64 -D__SSP_STRONG__=3 '-D__DBL_MIN_EXP__=(-1021)' -D__UINT_LEAST16_MAX__=0xffff -D__ATOMIC_ACQUIRE=2 -D__FLT_MIN__=1.17549435082228750797e-38F -D__GCC_IEC_559_COMPLEX=2 '-D__UINT_LEAST8_TYPE__=unsigned char' -D__SIZEOF_FLOAT80__=16 '-D__INTMAX_C(c)=c ## L' -D__CHAR_BIT__=8 -D__UINT8_MAX__=0xff -D__WINT_MAX__=0xffffffffU -D__ORDER_LITTLE_ENDIAN__=1234 -D__SIZE_MAX__=0xffffffffffffffffUL -D__WCHAR_MAX__=0x7fffffff -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1 '-D__DBL_DENORM_MIN__=((double)4.94065645841246544177e-324L)' -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8=1 -D__GCC_ATOMIC_CHAR_LOCK_FREE=2 -D__GCC_IEC_559=2 -D__FLT_EVAL_METHOD__=0 -D__unix__=1 -D__GCC_ATOMIC_CHAR32_T_LOCK_FREE=2 -D__x86_64=1 -D__UINT_FAST64_MAX__=0xffffffffffffffffUL -D__SIG_ATOMIC_TYPE__=int '-D__DBL_MIN_10_EXP__=(-307)' -D__FINITE_MATH_ONLY__=0 -D__UINT_FAST8_MAX__=0xff '-D__has_include(STR)=__has_include__(STR)' -D__DEC64_MAX_EXP__=385 '-D__INT8_C(c)=c' -D__UINT_LEAST64_MAX__=0xffffffffffffffffUL -D__SHRT_MAX__=0x7fff '-D__LDBL_MAX__=1.18973149535723176502e+4932L' -D__UINT_LEAST8_MAX__=0xff -D__GCC_ATOMIC_BOOL_LOCK_FREE=2 '-D__UINTMAX_TYPE__=long unsigned int' -D__linux=1 -D__DEC32_EPSILON__=1E-6DF -D__unix=1 -D__UINT32_MAX__=0xffffffffU -D__LDBL_MAX_EXP__=16384 -D__WINT_MIN__=0U -D__linux__=1 -D__SCHAR_MAX__=0x7f '-D__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)' '-D__INT64_C(c)=c ## L' -D__DBL_DIG__=15 -D__GCC_ATOMIC_POINTER_LOCK_FREE=2 -D__SIZEOF_INT__=4 -D__SIZEOF_POINTER__=8 -D__USER_LABEL_PREFIX__= -D__LDBL_HAS_INFINITY__=1 -D__FLT_EPSILON__=1.19209289550781250000e-7F -D__LDBL_MIN__=3.36210314311209350626e-4932L -D__STDC_UTF_16__=1 -D__DEC32_MAX__=9.999999E96DF -D__INT32_MAX__=0x7fffffff -D__SIZEOF_LONG__=8 -D__STDC_IEC_559__=1 -D__STDC_ISO_10646__=201505L '-D__UINT16_C(c)=c' -D__DECIMAL_DIG__=21 -D__gnu_linux__=1 '-D__has_include_next(STR)=__has_include_next__(STR)' -D__LDBL_HAS_QUIET_NAN__=1 -D__MMX__=1 -D__FLT_HAS_DENORM__=1 -D__SIZEOF_LONG_DOUBLE__=16 -D__BIGGEST_ALIGNMENT__=16 '-D__DBL_MAX__=((double)1.79769313486231570815e+308L)' -D__INT_FAST32_MAX__=0x7fffffffffffffffL -D__DBL_HAS_INFINITY__=1 '-D__DEC32_MIN_EXP__=(-94)' '-D__INT_FAST16_TYPE__=long int' -D__LDBL_HAS_DENORM__=1 -D__DEC128_MAX__=9.999999999999999999999999999999999E6144DL -D__INT_LEAST32_MAX__=0x7fffffff -D__DEC32_MIN__=1E-95DF -D__DBL_MAX_EXP__=1024 -D__DEC128_EPSILON__=1E-33DL -D__SSE2_MATH__=1 -D__ATOMIC_HLE_RELEASE=131072 -D__PTRDIFF_MAX__=0x7fffffffffffffffL -D__amd64=1 -D__STDC_NO_THREADS__=1 -D__ATOMIC_HLE_ACQUIRE=65536 -D__LONG_LONG_MAX__=0x7fffffffffffffffLL -D__SIZEOF_SIZE_T__=8 -D__SIZEOF_WINT_T__=4 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -D__GXX_ABI_VERSION=1009 '-D__FLT_MIN_EXP__=(-125)' '-D__INT_FAST64_TYPE__=long int' '-D__DBL_MIN__=((double)2.22507385850720138309e-308L)' -D__LP64__=1 -D__DECIMAL_BID_FORMAT__=1 -D__DEC128_MIN__=1E-6143DL -D__REGISTER_PREFIX__= -D__UINT16_MAX__=0xffff -D__DBL_HAS_DENORM__=1 '-D__UINT8_TYPE__=unsigned char' -D__NO_INLINE__=1 -D__FLT_MANT_DIG__=24 '-D__UINT64_C(c)=c ## UL' -D_STDC_PREDEF_H=1 -D__GCC_ATOMIC_INT_LOCK_FREE=2 -D__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__STDC_IEC_559_COMPLEX__=1 '-D__INT32_C(c)=c' -D__DEC64_EPSILON__=1E-15DD -D__ORDER_PDP_ENDIAN__=3412 '-D__DEC128_MIN_EXP__=(-6142)' '-D__INT_FAST32_TYPE__=long int' '-D__UINT_LEAST16_TYPE__=short unsigned int' -Dunix=1 -D__INT16_MAX__=0x7fff '-D__SIZE_TYPE__=long unsigned int' -D__UINT64_MAX__=0xffffffffffffffffUL '-D__INT8_TYPE__=signed char' -D__ELF__=1 -D__FLT_RADIX__=2 '-D__INT_LEAST16_TYPE__=short int' -D__LDBL_EPSILON__=1.08420217248550443401e-19L '-D__UINTMAX_C(c)=c ## UL' -D__SSE_MATH__=1 -D__k8=1 -D__SIG_ATOMIC_MAX__=0x7fffffff -D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2 -D__SIZEOF_PTRDIFF_T__=8 -D__x86_64__=1 -D__DEC32_SUBNORMAL_MIN__=0.000001E-95DF -D__INT_FAST16_MAX__=0x7fffffffffffffffL -D__UINT_FAST32_MAX__=0xffffffffffffffffUL '-D__UINT_LEAST64_TYPE__=long unsigned int' -D__FLT_HAS_QUIET_NAN__=1 -D__FLT_MAX_10_EXP__=38 -D__LONG_MAX__=0x7fffffffffffffffL -D__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL -D__FLT_HAS_INFINITY__=1 '-D__UINT_FAST16_TYPE__=long unsigned int' -D__DEC64_MAX__=9.999999999999999E384DD -D__PRAGMA_REDEFINE_EXTNAME=1 -D__INT_LEAST16_MAX__=0x7fff -D__DEC64_MANT_DIG__=16 -D__INT64_MAX__=0x7fffffffffffffffL -D__UINT_LEAST32_MAX__=0xffffffffU -D__GCC_ATOMIC_LONG_LOCK_FREE=2 '-D__INT_LEAST64_TYPE__=long int' '-D__INT16_TYPE__=short int' '-D__INT_LEAST8_TYPE__=signed char' -D__DEC32_MAX_EXP__=97 -D__INT_FAST8_MAX__=0x7f -D__INTPTR_MAX__=0x7fffffffffffffffL -Dlinux=1 -D__SSE2__=1 -D__LDBL_MANT_DIG__=64 -D__DBL_HAS_QUIET_NAN__=1 '-D__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)' -D__code_model_small__=1 -D__k8__=1 '-D__INTPTR_TYPE__=long int' '-D__UINT16_TYPE__=short unsigned int' -D__WCHAR_TYPE__=int -D__SIZEOF_FLOAT__=4 -D__UINTPTR_MAX__=0xffffffffffffffffUL '-D__DEC64_MIN_EXP__=(-382)' -D__INT_FAST64_MAX__=0x7fffffffffffffffL -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -D__FLT_DIG__=6 '-D__UINT_FAST64_TYPE__=long unsigned int' -D__INT_MAX__=0x7fffffff -D__amd64__=1 '-D__INT64_TYPE__=long int' -D__FLT_MAX_EXP__=128 -D__ORDER_BIG_ENDIAN__=4321 -D__DBL_MANT_DIG__=53 -D__SIZEOF_FLOAT128__=16 -D__INT_LEAST64_MAX__=0x7fffffffffffffffL -D__GCC_ATOMIC_CHAR16_T_LOCK_FREE=2 -D__DEC64_MIN__=1E-383DD '-D__WINT_TYPE__=unsigned int' '-D__UINT_LEAST32_TYPE__=unsigned int' -D__SIZEOF_SHORT__=2 -D__SSE__=1 '-D__LDBL_MIN_EXP__=(-16381)' -D__INT_LEAST8_MAX__=0x7f -D__SIZEOF_INT128__=16 -D__LDBL_MAX_10_EXP__=4932 -D__ATOMIC_RELAXED=0 '-D__DBL_EPSILON__=((double)2.22044604925031308085e-16L)' -D_LP64=1 '-D__UINT8_C(c)=c' -D__INT_LEAST32_TYPE__=int -D__SIZEOF_WCHAR_T__=4 '-D__UINT64_TYPE__=long unsigned int' '-D__INT_FAST8_TYPE__=signed char' -D__DBL_DECIMAL_DIG__=17 -D__STDC_UTF_32__=1 -D__FXSR__=1 -D__DEC_EVAL_METHOD__=2 '-D__UINT32_C(c)=c ## U' -D__INTMAX_MAX__=0x7fffffffffffffffL -D__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__FLT_DENORM_MIN__=1.40129846432481707092e-45F -D__INT8_MAX__=0x7f '-D__UINT_FAST32_TYPE__=long unsigned int' '-D__FLT_MAX__=3.40282346638528859812e+38F' -D__INT32_TYPE__=int -D__SIZEOF_DOUBLE__=8 '-D__FLT_MIN_10_EXP__=(-37)' '-D__INTMAX_TYPE__=long int' -D__DEC128_MAX_EXP__=6145 -D__ATOMIC_CONSUME=1 -D__UINTMAX_MAX__=0xffffffffffffffffUL -D__DEC32_MANT_DIG__=7 -D__DBL_MAX_10_EXP__=308 -D__LDBL_DENORM_MIN__=3.64519953188247460253e-4951L '-D__INT16_C(c)=c' '-D__PTRDIFF_TYPE__=long int' -D__ATOMIC_SEQ_CST=5 '-D__UINT32_TYPE__=unsigned int' '-D__UINTPTR_TYPE__=long unsigned int' -D__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD -D__DEC128_MANT_DIG__=34 '-D__LDBL_MIN_10_EXP__=(-4931)' -D__SIZEOF_LONG_LONG__=8 -D__GCC_ATOMIC_LLONG_LOCK_FREE=2 -D__LDBL_DIG__=18 -D__FLT_DECIMAL_DIG__=9 -D__UINT_FAST16_MAX__=0xffffffffffffffffUL -D__GCC_ATOMIC_SHORT_LOCK_FREE=2 '-D__UINT_FAST8_TYPE__=unsigned char' -D__ATOMIC_ACQ_REL=4 -D__ATOMIC_RELEASE=3 -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -- sort.c
+[E 23:51:55 7328] Reading all manifests in /home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/tarballs
+[E 23:51:55 7328] Starting compilation TRAP /home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compilations/11/6073926_0.trap.br
+Catastrophic error: cannot open builtin functions file "/home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compiler_mimic_cache/builtins_73c6cb557376"
+
+1 catastrophic error detected in the compilation of "sort.c".
+Compilation terminated.
+Current directory: '/home/zyc/桌面/codeql-linux64/codeql/Test_Cl'
+Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 -c sort.c -o sort.o
+[E 23:51:55 7328] Finished compilation TRAP /home/zyc/桌面/codeql-linux64/codeql/database_test/trap/cpp/compilations/11/6073926_0.trap.br
+[T 23:51:55 7322] Extractor terminated with exit code 1.
+[T 23:51:55 7329] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7329]   ELF 64-bit x86-64.
+[T 23:51:55 7329]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7329] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7329] ==== Candidate to intercept: gcc (canonical: gcc) ====
+[T 23:51:55 7329] Will try to resolve gcc in path /home/zyc/bin:/home/zyc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin.
+[T 23:51:55 7329]  -> path lookup for gcc as /home/zyc/bin/gcc...
+[T 23:51:55 7329]  -> path lookup for gcc as /home/zyc/.local/bin/gcc...
+[T 23:51:55 7329]  -> path lookup for gcc as /usr/local/sbin/gcc...
+[T 23:51:55 7329]  -> path lookup for gcc as /usr/local/bin/gcc...
+[T 23:51:55 7329]  -> path lookup for gcc as /usr/sbin/gcc...
+[T 23:51:55 7329]  -> path lookup for gcc as /usr/bin/gcc...
+[T 23:51:55 7329] ==== Candidate to intercept: /usr/bin/gcc (canonical: /usr/bin/gcc-5) ====
+[T 23:51:55 7329] === Intercepted call to /usr/bin/gcc-5 === 
+[T 23:51:55 7329] Resolved barename gcc to /usr/bin/gcc, which matched **/*cc*...
+[T 23:51:55 7331] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7331]   ELF 64-bit x86-64.
+[T 23:51:55 7331]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7331] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[T 23:51:55 7331] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/5/collect2 (canonical: /usr/lib/gcc/x86_64-linux-gnu/5/collect2) ====
+[T 23:51:55 7331] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/5/collect2 === 
+[T 23:51:55 7332] Attempting to switch stdout/stderr to 4...
+Testing stderr (2/4).
+[E 23:51:55 7332] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7332] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7332] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --linker --semmle-linker-executable /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0W9HiO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o main /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. main.o sort.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+Warning: Unrecognised command line argument -plugin
+Warning: Unrecognised command line argument -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Warning: Unrecognised command line argument -plugin-opt=-fresolution=/tmp/cc0W9HiO.res
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument --build-id
+[E 23:51:55 7332] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[E 23:51:55 7332] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[E 23:51:55 7332] Warning[extractor-c++]: In print_object_names: Could not open object file "elf_x86_64" (error 2: No such file or directory).
+[E 23:51:55 7332] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[T 23:51:55 7331] Disabling tracing for this command.
+[T 23:51:55 7333] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7333]   ELF 64-bit x86-64.
+[T 23:51:55 7333]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7334] Attempting to switch stdout/stderr to 4...
+Testing stderr (2/4).
+[T 23:51:55 7334] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 23:51:55 7334]   ELF 64-bit x86-64.
+[T 23:51:55 7334]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 23:51:55 7334] Reading configuration file /home/zyc/桌面/codeql-linux64/codeql/database_test/working/tracing/compiler-tracing10612176338312014807.spec...
+[E 23:51:55 7334] CodeQL C/C++ Extractor 1.25.0-SNAPSHOT
+[E 23:51:55 7334] Current directory: /home/zyc/桌面/codeql-linux64/codeql/Test_Cl
+[E 23:51:55 7334] Command: '/home/zyc/桌面/codeql-linux64/codeql/cpp/tools/linux64/extractor' --mimic /usr/bin/gcc-5 main.o sort.o -o main
+Excluded main.o because it is an object
+Excluded sort.o because it is an object
+[E 23:51:55 7334] 0 file groups; exiting.
+[T 23:51:55 7329] Extractor terminated with exit code 0.
