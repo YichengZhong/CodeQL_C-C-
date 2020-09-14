@@ -1,0 +1,1 @@
+"Variable used in its own initializer","Loading from a variable in its own initializer may lead to undefined behavior.","warning","x is used in its own initializer.","/main.c","5","13","5","13"
