@@ -24,3 +24,5 @@ codeql-main/codeql-main/cpp/ql/src/codeql-suites
 针对Protobuf必须先进行配置，才会生成makefile文件，最后可以分析，非常重要。
 ./autogen.sh 
 ./configure
+
+感觉查出来的问题不是很多
