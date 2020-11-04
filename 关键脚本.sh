@@ -47,3 +47,22 @@ codeql-main/codeql-main/cpp/ql/src/codeql-suites
 - query: Architecture/InappropriateIntimacy.ql
 #- query: Architecture/InheritanceDepthDistribution.ql
 - query: Architecture/NamespaceDependencies.ql
+
+//1. 下载最新版本
+git clone https://github.com/protocolbuffers/protobuf.git
+cd protobuf
+git submodule update --init --recursive
+./autogen.sh
+
+//2. build 并 install
+./configure
+ make
+ make check
+ sudo make install
+ sudo ldconfig # refresh shared library cache.
+
+//3. 验证
+protoc --version
+输出：libprotoc 3.6.1
+
+/home/zyc/codeql-linux64/codeql/codeql database create ./protobuf_database --language=cpp --source-root='./protobuf' --command=make 
